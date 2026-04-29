@@ -5,5 +5,11 @@
 
 
 ##Numero de caracteres em um nome 
-a=input("Digite seu nome")
-print(len(a))
+#a=input("Digite seu nome")
+#print(len(a))
+
+#Digite dois valores e retorna a soma
+print("Calculadora básica")
+a=int(input("Primeiro Valor\n"))
+b=int(input("Segundo Valor\n"))
+print(a+b)
