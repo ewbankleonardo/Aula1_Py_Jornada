@@ -9,7 +9,22 @@
 #print(len(a))
 
 #Digite dois valores e retorna a soma
+#print("Calculadora básica")
+#a=int(input("Primeiro Valor\n"))
+#b=int(input("Segundo Valor\n"))
+#print(a+b)
+
+#Calculadora
 print("Calculadora básica")
 a=int(input("Primeiro Valor\n"))
 b=int(input("Segundo Valor\n"))
-print(a+b)
+op=input("Digite a operação\n").lower()
+if op=="soma":
+    print(a+b)
+elif op=="multiplicar":
+    print(a*b)
+elif op=="dividir":
+    print(a/b)
+else:
+    print(a-b)
+
